@@ -3,14 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src= "shifumi.js"></script>
+  
     <title>shifumi</title>
 </head>
 <body>
-    <button onclick=""> </button>
-    <button> feuille</button>
-    <button> ciseau </button>
+    <h1>Jeu Shifumi</h1>
+    <button id="pierre">Pierre</button>
+    <button id="feuille">Feuille</button>
+    <button id="ciseau">Ciseau</button>
 
-    <h2 id="resultat"> </h2>
+    <h2 id="resultat"></h2>
+
+    <h3>Score</h3>
+    <p>Victoires : <span id="nb_victoire">0</span></p>
+    <p>Nuls : <span id="nb_nul">0</span></p>
+    <p>Défaites : <span id="nb_defaite">0</span></p>
+
+    <script src="shifumi.js"></script>
 </body>
 </html>
