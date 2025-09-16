@@ -1,10 +1,6 @@
-let HT = 92.16;
-let TVA =  0.20;
+let poids = 90;
+let taille =  1.10;
 
-let TTC = HT * (1+TVA);
+let imc = poids / (taille*taille);
 
-console.log("montant HT "+ HT );
-
-console.log("montant TVA  est de "+ TVA*100 + "%" );
-
-console.log("le montant TTC est de " + TTC);
+console.log("l'imc est de " + imc.toFixed(2));
