@@ -1,6 +1,9 @@
-let poids = 90;
-let taille =  1.10;
+const montantMinimum = 40;
+let montantTotal = 5;
 
-let imc = poids / (taille*taille);
-
-console.log("l'imc est de " + imc.toFixed(2));
+if(montantTotal >= montantMinimum){
+    console.log("Livraison gratuite !");
+}
+else{
+    console.log("Frais de livraison : X euros");
+}
