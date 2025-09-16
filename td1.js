@@ -1,6 +1,6 @@
-let l = 12;
-let L = 50;
+let prenom = 'thomas';
+let nom = 'jenvrin';
 
-let aire = l*L;
 
-console.log("aire du rectangle est "+ aire);
+
+console.log(nom +'   '+ prenom);
