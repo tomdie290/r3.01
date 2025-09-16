@@ -3,21 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+    <link rel="stylesheet" href="styles.css">
     <title>shifumi</title>
 </head>
 <body>
     <h1>Jeu Shifumi</h1>
-    <button id="pierre">Pierre</button>
-    <button id="feuille">Feuille</button>
-    <button id="ciseau">Ciseau</button>
+    <button class="btnj" id="pierre">Pierre</button>
+    <button class="btnj" id="feuille">Feuille</button>
+    <button class="btnj" id="ciseau">Ciseaux</button>
 
-    <h2 id="resultat"></h2>
+    <h3 id="resultat"></h3>
 
-    <h3>Score</h3>
+    <h2>Score</h2>
     <p>Victoires : <span id="nb_victoire">0</span></p>
-    <p>Nuls : <span id="nb_nul">0</span></p>
+    <p >Nuls : <span id="nb_nul">0</span></p>
     <p>Défaites : <span id="nb_defaite">0</span></p>
+
+    <button class="btnr" id="recommence">Recommencer la partie</button>
 
     <script src="shifumi.js"></script>
 </body>
