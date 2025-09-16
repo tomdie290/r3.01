@@ -1,9 +1,5 @@
-const montantMinimum = 40;
-let montantTotal = 5;
+let binaire = "100011010011010";
 
-if(montantTotal >= montantMinimum){
-    console.log("Livraison gratuite !");
-}
-else{
-    console.log("Frais de livraison : X euros");
-}
+
+console.log("code binaire " + binaire);
+console.log("décimal : " + parseInt(binaire, 2));
